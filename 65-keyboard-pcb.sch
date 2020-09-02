@@ -470,7 +470,7 @@ U 1 1 5F4F25EB
 P 9400 4400
 F 0 "MX63" H 9433 4623 60  0000 C CNN
 F 1 "MX-NoLED" H 9433 4549 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 8775 4375 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.25U-NoLED" H 8775 4375 60  0001 C CNN
 F 3 "" H 8775 4375 60  0001 C CNN
 	1    9400 4400
 	1    0    0    -1  
@@ -1575,8 +1575,6 @@ Wire Wire Line
 Connection ~ 10400 2500
 Wire Wire Line
 	10400 2500 10050 2500
-Wire Wire Line
-	10750 3250 10050 3250
 Connection ~ 5850 3250
 Wire Wire Line
 	5850 3250 5600 3250
@@ -1613,11 +1611,6 @@ Wire Wire Line
 Connection ~ 9700 3250
 Wire Wire Line
 	9700 3250 9350 3250
-Connection ~ 10050 3250
-Wire Wire Line
-	10050 3250 9700 3250
-Wire Wire Line
-	10750 4000 10050 4000
 Connection ~ 5850 4000
 Wire Wire Line
 	5850 4000 5600 4000
@@ -1654,9 +1647,6 @@ Wire Wire Line
 Connection ~ 9700 4000
 Wire Wire Line
 	9700 4000 9350 4000
-Connection ~ 10050 4000
-Wire Wire Line
-	10050 4000 9700 4000
 Wire Wire Line
 	10750 4750 10400 4750
 Connection ~ 5850 4750
@@ -1833,22 +1823,12 @@ Wire Wire Line
 Connection ~ 9900 3600
 Wire Wire Line
 	9900 3600 9900 2850
-Wire Wire Line
-	10250 4350 10250 3600
 Connection ~ 10250 1350
 Wire Wire Line
 	10250 1350 10250 950 
 Connection ~ 10250 2100
 Wire Wire Line
 	10250 2100 10250 1350
-Connection ~ 10250 2850
-Wire Wire Line
-	10250 2850 10250 2100
-Connection ~ 10250 3600
-Wire Wire Line
-	10250 3600 10250 2850
-Wire Wire Line
-	10600 4350 10600 2100
 Connection ~ 10600 1350
 Wire Wire Line
 	10600 1350 10600 950 
@@ -2437,4 +2417,24 @@ F 3 "" H 1650 6200 50  0001 C CNN
 	1    1650 6200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10250 2100 10250 2850
+Wire Wire Line
+	9700 4000 10050 4000
+Wire Wire Line
+	9700 3250 10050 3250
+Connection ~ 10250 2850
+Wire Wire Line
+	10250 2850 10250 3600
+Connection ~ 10050 3250
+Connection ~ 10250 3600
+Wire Wire Line
+	10250 3600 10250 4350
+Connection ~ 10050 4000
+Wire Wire Line
+	10050 3250 10750 3250
+Wire Wire Line
+	10050 4000 10750 4000
+Wire Wire Line
+	10600 2100 10600 4350
 $EndSCHEMATC
