@@ -2527,4 +2527,44 @@ Wire Wire Line
 	4000 4200 3850 4200
 Wire Wire Line
 	3850 4100 4000 4100
+Text GLabel 3850 3500 2    50   Input ~ 0
+ROW4
+Text GLabel 3850 3600 2    50   Input ~ 0
+ROW3
+Text GLabel 3850 3800 2    50   Input ~ 0
+ROW1
+Text GLabel 3850 3900 2    50   Input ~ 0
+ROW0
+Text GLabel 3850 2400 2    50   Input ~ 0
+COL7
+Text GLabel 3850 3400 2    50   Input ~ 0
+COL6
+Text GLabel 3850 3300 2    50   Input ~ 0
+COL5
+Text GLabel 3850 2900 2    50   Input ~ 0
+COL4
+Text GLabel 3850 2800 2    50   Input ~ 0
+COL3
+Text GLabel 3850 2700 2    50   Input ~ 0
+COL2
+Text GLabel 3850 3700 2    50   Input ~ 0
+ROW2
+Text GLabel 3850 2600 2    50   Input ~ 0
+COL1
+Text GLabel 3850 2500 2    50   Input ~ 0
+COL0
+Text GLabel 3850 4000 2    50   Input ~ 0
+COL8
+Text GLabel 1700 4200 0    50   Input ~ 0
+COL9
+Text GLabel 1700 4100 0    50   Input ~ 0
+COL10
+Text GLabel 1700 4000 0    50   Input ~ 0
+COL11
+Text GLabel 1700 3900 0    50   Input ~ 0
+COL12
+Text GLabel 1700 3800 0    50   Input ~ 0
+COL14
+Text GLabel 1700 3200 0    50   Input ~ 0
+COL13
 $EndSCHEMATC
